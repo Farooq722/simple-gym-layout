@@ -1,0 +1,134 @@
+/*SIGN UP PAGE CSS STARTS HERE*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.outerbox{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to top left,#08ee2e,#22c4da); 
+
+}
+.innerbox{
+    width: 350px;
+    margin: 0 auto;
+    height: 370px;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 80px;
+    /* background-color: #e7181833; */
+    background: linear-gradient(to top left,rgb(247, 196, 196),#3beb6133);
+    box-shadow: 4px 4px 6px #2703f1;
+    border-radius: 50px;
+    backdrop-filter: blur(6px);
+
+}
+.signup-body p{
+    margin: 6px;
+    padding: 4px ;
+    color: #212121;
+}
+.signup-body input{
+    border-radius: 4px;
+}
+.signup-body label{
+    color: rgb(12, 12, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.signup-body label:hover{
+    color: #f8dbdb;
+    transition: .4s;
+}
+.signup h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+.signup p{
+    font-size: 0.8rem;
+    color: #ccc;
+}
+.signup-body #submit{
+    border-radius: 10px;
+    padding: 4px;
+    color: #000000;
+    background-color: #a299f5;
+}
+.signup-body #submit:hover{
+    background-color: rgb(18, 17, 20);
+    transform: scale(1.1);
+    
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background:linear-gradient(to top right,#ffffff33,#ffffffff);
+    position: absolute;
+
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    bottom: 100px;
+    right: 40px;
+}
+.signup-footer{
+    color: #e92806;
+    font: bold;
+}
+.signup-footer a:hover{
+    color: rgb(255, 0, 170);
+    transform: scale(1.2);
+}
+/* SIGN UP PAGE CSS ENDS HERE*/
+
+
+/* LOGIN PAGE CSS STARTS HERE */
+*{
+    padding: 0;
+    margin: 0;
+    background:linear-gradient(to left,#54f36f,#22c4da);
+}
+
+.login-inner-box{
+    width: 350px;
+    margin: auto;
+    height: 280px;
+    position: relative;
+    top: 50%;
+    transform: translateY(60%);
+    padding: 8px;
+    border-radius:20px 30px;
+    box-shadow: 8px 6px #13a2bb;
+}
+.login-inner-box header h1{
+    text-align: center;
+    color: #080708;
+    text-decoration: underline;
+    font-style:oblique;
+}
+.login-inner-box header{
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px ;
+    color: #1c153a;
+}
+
+.login-body p{
+    padding: 2px  10px;
+    margin: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:10px;
+}
+.login-body p:hover{
+    transition: .4s;
+    transform: scaleY(1.1);
+}
+/* END OF LOGIN PAGE STYLE */
