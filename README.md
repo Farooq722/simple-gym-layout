@@ -1,6 +1,8 @@
 # simple-gym-layout
 A simple gym layout created using HTML and CSS 
 Azure deployment web application link : https://lemon-water-05d6f4110.2.azurestaticapps.net
+
+
 HOME PAGE:
 ![Screenshot (1072)](https://user-images.githubusercontent.com/99309231/201024008-601e1bb9-560f-44a8-b9a3-d12578a727bb.png)
 
