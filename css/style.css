@@ -120,7 +120,18 @@ body{
     font-size: 20px ;
     color: #1c153a;
 }
-
+.btn button {
+    font-style: oblique;
+    padding: 8px 20px;
+    margin: auto 18px;
+    border-radius: 3px 12px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn button:hover{
+    transform: scaleY(1.1);
+    cursor: pointer;
+}
 .login-body p{
     padding: 2px  10px;
     margin: 10px;
